@@ -29,9 +29,9 @@ func main() {
 		},
 	}
 
-	// Connect to local dcrd RPC server using websockets.
-	dcrdHomeDir := abcutil.AppDataDir("dcrd", false)
-	certs, err := ioutil.ReadFile(filepath.Join(dcrdHomeDir, "rpc.cert"))
+	// Connect to local abcd RPC server using websockets.
+	abcdHomeDir := abcutil.AppDataDir("abcd", false)
+	certs, err := ioutil.ReadFile(filepath.Join(abcdHomeDir, "rpc.cert"))
 	if err != nil {
 		log.Fatal(err)
 	}

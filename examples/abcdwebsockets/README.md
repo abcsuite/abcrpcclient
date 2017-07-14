@@ -1,7 +1,7 @@
-dcrd Websockets Example
+abcd Websockets Example
 =======================
 
-This example shows how to use the abcrpcclient package to connect to a dcrd
+This example shows how to use the abcrpcclient package to connect to a abcd
 RPC server using TLS-secured websockets, register for block connected and block
 disconnected notifications, and get the current block count.
 
@@ -28,7 +28,7 @@ password for the RPC server:
 Finally, navigate to the example's directory and run it with:
 
 ```bash
-$ cd $GOPATH/src/github.com/abcsuite/abcrpcclient/examples/dcrdwebsockets
+$ cd $GOPATH/src/github.com/abcsuite/abcrpcclient/examples/abcdwebsockets
 $ go run *.go
 ```
 

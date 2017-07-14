@@ -19,19 +19,19 @@ implement and the API is not stable yet.
 ## Documentation
 
 * [API Reference](http://godoc.org/github.com/abcsuite/abcrpcclient)
-* [abcd Websockets Example](https://github.com/abcsuite/abcrpcclient/blob/master/examples/dcrdwebsockets)  
+* [abcd Websockets Example](https://github.com/abcsuite/abcrpcclient/blob/master/examples/abcdwebsockets)  
   Connects to a abcd RPC server using TLS-secured websockets, registers for
   block connected and block disconnected notifications, and gets the current
   block count
-* [dcrwallet Websockets Example](https://github.com/abcsuite/abcrpcclient/blob/master/examples/dcrwalletwebsockets)  
-  Connects to a dcrwallet RPC server using TLS-secured websockets, registers for
+* [abcwallet Websockets Example](https://github.com/abcsuite/abcrpcclient/blob/master/examples/abcwalletwebsockets)  
+  Connects to a abcwallet RPC server using TLS-secured websockets, registers for
   notifications about changes to account balances, and gets a list of unspent
   transaction outputs (utxos) the wallet can sign
 
 ## Major Features
 
-* Supports Websockets (abcd/dcrwallet) and HTTP POST mode (bitcoin core-like)
-* Provides callback and registration functions for abcd/dcrwallet notifications
+* Supports Websockets (abcd/abcwallet) and HTTP POST mode (bitcoin core-like)
+* Provides callback and registration functions for abcd/abcwallet notifications
 * Supports abcd extensions
 * Translates to and from higher-level and easier to use Go types
 * Offers a synchronous (blocking) and asynchronous API

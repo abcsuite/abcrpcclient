@@ -3337,12 +3337,12 @@ func (c *Client) WalletInfo() (*abcjson.WalletInfoResult, error) {
 }
 
 // TODO(davec): Implement
-// backupwallet (NYI in dcrwallet)
-// encryptwallet (Won't be supported by dcrwallet since it's always encrypted)
-// getwalletinfo (NYI in dcrwallet or abcjson)
-// listaddressgroupings (NYI in dcrwallet)
-// listreceivedbyaccount (NYI in dcrwallet)
+// backupwallet (NYI in abcwallet)
+// encryptwallet (Won't be supported by abcwallet since it's always encrypted)
+// getwalletinfo (NYI in abcwallet or abcjson)
+// listaddressgroupings (NYI in abcwallet)
+// listreceivedbyaccount (NYI in abcwallet)
 
 // DUMP
-// importwallet (NYI in dcrwallet)
-// dumpwallet (NYI in dcrwallet)
+// importwallet (NYI in abcwallet)
+// dumpwallet (NYI in abcwallet)

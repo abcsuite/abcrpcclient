@@ -28,8 +28,8 @@ func main() {
 		},
 	}
 
-	// Connect to local dcrwallet RPC server using websockets.
-	certHomeDir := abcutil.AppDataDir("dcrwallet", false)
+	// Connect to local abcwallet RPC server using websockets.
+	certHomeDir := abcutil.AppDataDir("abcwallet", false)
 	certs, err := ioutil.ReadFile(filepath.Join(certHomeDir, "rpc.cert"))
 	if err != nil {
 		log.Fatal(err)

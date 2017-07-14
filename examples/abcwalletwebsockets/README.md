@@ -1,7 +1,7 @@
-dcrwallet Websockets Example
+abcwallet Websockets Example
 ============================
 
-This example shows how to use the abcrpcclient package to connect to a dcrwallet
+This example shows how to use the abcrpcclient package to connect to a abcwallet
 RPC server using TLS-secured websockets, register for notifications about
 changes to account balances, and get a list of unspent transaction outputs
 (utxos) the wallet can sign.
@@ -29,7 +29,7 @@ password for the RPC server:
 Finally, navigate to the example's directory and run it with:
 
 ```bash
-$ cd $GOPATH/src/github.com/abcsuite/abcpcclient/examples/dcrwalletwebsockets
+$ cd $GOPATH/src/github.com/abcsuite/abcpcclient/examples/abcwalletwebsockets
 $ go run *.go
 ```
 
