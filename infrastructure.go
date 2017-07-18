@@ -26,8 +26,8 @@ import (
 
 	"github.com/abcsuite/abcd/abcjson"
 
-	"github.com/btcsuite/go-socks/socks"
-	"github.com/btcsuite/websocket"
+	"github.com/abcsuite/go-socks/socks"
+	"github.com/abcsuite/websocket"
 )
 
 var (

@@ -1,10 +1,10 @@
 package: github.com/abcsuite/abcrpcclient
 import:
-- package: github.com/btcsuite/btclog
-- package: github.com/btcsuite/go-socks
+- package: github.com/abcsuite/abclog
+- package: github.com/abcsuite/go-socks
   subpackages:
   - socks
-- package: github.com/btcsuite/websocket
+- package: github.com/abcsuite/websocket
 - package: github.com/davecgh/go-spew
   subpackages:
   - spew
